@@ -3,7 +3,7 @@
 # Если вы пробежали 10 километров за 42 минуты 42 секунды, каков ваш средний темп бега 
 # (время, затраченное на преодоление мили, в минутах и секундах)? 
 # Какова ваша средняя скорость в милях в час?”
-
+# new text
 timeSec = 42 * 60 + 42
 print("total {} sec".format(timeSec))
 
@@ -15,4 +15,4 @@ timeMin = runPace // 60
 timeRest = runPace % 60 
 print("{} minut, {} secund".format(timeMin, timeRest))
 speed = 10 * 3600 / timeSec
-print("speed = {}".format(speed))
+print("A speed = {}".format(speed))
