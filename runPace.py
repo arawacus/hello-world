@@ -9,7 +9,7 @@ class Solution:
 
 
         timeSec = time[-3] * 60 + time[-2] * 60 + time[-1]
-        distMile = dist * 1.6
+        distMile = dist / 1.6
         resSec = timeSec / distMile
 
     def timeToSec(self, days, hours, min, sec):
