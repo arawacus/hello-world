@@ -1,13 +1,19 @@
-class Solution:
 
-    def letterFreq(self, s):
-        
-        return s
+
+def letterFreq(s):
+    letters = set(s)
+    freq = {}
+    for lett in letters:
+        freq[lett] = s.count(lett)
+
+    print(letters)
+
+    return freq
 
 
 
 # s = input("Введите строку\n")
 s = "abracodabra boo"
-Solution = Solution()
-res = Solution.letterFreq(s)
+
+res = letterFreq(s)
 print("res = {}".format(res))
