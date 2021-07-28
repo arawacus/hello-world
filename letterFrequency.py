@@ -6,9 +6,10 @@ def letterFreq(s):
     for lett in letters:
         freq[lett] = s.count(lett)
 
-    print(letters)
+    print(freq)
+    sorted_freq = sorted(freq.items(), key = lambda kv: kv[1])
 
-    return freq
+    return sorted_freq
 
 
 
