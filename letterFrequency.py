@@ -11,10 +11,15 @@ def letterFreq(s):
 
     return sorted_freq
 
-
+# path = "/Users/asya/GitHub/hello-world/text.txt"
+# f = open('text.txt')
+# st = f.read()
+s = "abracodabra boo"
+f2 = open("text2.txt", 'w')
+f2.write(s)
 
 # s = input("Введите строку\n")
-s = "abracodabra boo"
+# s = "abracodabra boo"
 
 res = letterFreq(s)
 print("res = {}".format(res))
