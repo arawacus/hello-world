@@ -6,13 +6,13 @@ def fileProc(file):
     sWords = set(words)
     return sWords
 
-def compareSets(s1,s2):
+def compareSets(s1, s2):
     res = list()
     for word in s1:
         if word in s2:
             res.append(word)
     return res
-    
+
 words1 = fileProc("file1.txt")
 words2 = fileProc("file2.txt")
 print("words1 = {}".format(words1))
