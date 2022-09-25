@@ -22,7 +22,6 @@ def main():
     # compare = words1 & words2
     # print("compare = {}".format(compare))
 
-
     compare = compareSets(words1, words2)
     print("compare = {}".format(compare))
 
